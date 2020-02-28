@@ -1,0 +1,31 @@
+Search IFTTT for "Alarm to Spotify" it will be created by jeanyjean
+
+Create script using "Script editor"
+
+Now copy the text from below and past 
+
+
+ using terms from application "Spotify"
+	if player state of application "Spotify" is paused then
+		tell application "Spotify" to play
+	else
+		tell application "Spotify" to pause
+	end if
+end using terms from
+
+
+
+...Save this file as "spotify"
+
+
+
+Go to the Mail client 
+-Click: MAIL
+-Click: Prefrences
+-Click: Rules
+
+
+
+-make a new rule and put your applescript in the rule by clicking on "no scripts found" and then "open in finder" then just drag & drop your script in that folder that should be named "com.apple.mail" and you are done!
+
+This is a recreation but script update should work now. 
